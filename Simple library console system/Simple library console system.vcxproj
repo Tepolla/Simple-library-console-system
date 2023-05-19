@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LibraryManagementSystem.cpp" />
     <ClCompile Include="Simple library console system.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LibraryManagementSystem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
