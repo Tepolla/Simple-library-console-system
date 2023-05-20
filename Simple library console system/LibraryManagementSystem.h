@@ -14,6 +14,7 @@ public:
 	void lend(std::string name);
 	void relinquish(std::string name);
 	void view();
+	void menu();
 
 	std::vector<std::vector<int>> getItems();
 
