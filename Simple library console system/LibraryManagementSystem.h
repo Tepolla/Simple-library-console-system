@@ -5,14 +5,14 @@
 class LibraryManagementSystem {
 private:
 	//std::vector<std::vector<std::variant<std::string, int>>> items;
-	vector<string> books;
-	vector<int> current;
-	vector<int> total;
+	std::vector<std::string> books;
+	std::vector<int> current;
+	std::vector<int> total;
 
 public:
-	void add(string name);
-	void lend(string name);
-	void relinquish(string name);
+	void add(std::string name);
+	void lend(std::string name);
+	void relinquish(std::string name);
 	void view();
 
 	std::vector<std::vector<int>> getItems();
