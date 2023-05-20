@@ -13,16 +13,19 @@ void LibraryManagementSystem::add(string name) {
 			total[i] += 1;
 			return;
 		}
-		books.push_back(name);
-		current.push_back(1);
-		total.push_back(1);
 	}
+	books.push_back(name);
+	current.push_back(1);
+	total.push_back(1);
+	view();
 }
 
 void LibraryManagementSystem::lend(string name) {
 	for (int i = 0; i < books.size(); i++) {
 		if (books[i] == name) {
-			current[i] -= 1;
+			if (current[i] > 0) {
+				current[i] -= 1;
+			}
 			return;
 		}
 	}
