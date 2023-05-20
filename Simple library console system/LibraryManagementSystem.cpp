@@ -27,7 +27,7 @@ void LibraryManagementSystem::lend(string name) {
 				current[i] -= 1;
 			}
 			else {
-				cerr << books[i] << " is currently out of stock.";
+				cerr << books[i] << " is currently out of stock.\n";
 			}
 			return;
 		}
