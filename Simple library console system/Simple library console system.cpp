@@ -7,16 +7,10 @@
 
 using namespace std;
 
-void lower(string& text);
-
 int main(){
 	LibraryManagementSystem LMS;
 
 	LMS.menu();
-
-	// CONSIDER ADDING A NOTEPAD OR SQL DATABASE
-	// TO STORE AND ACCESS PREVIOUSLY ADDED DATA
-	// YOU MAY ALSO WANT TO ADD A DELETE FUNCTION
 	 
 	return 0;
 }
